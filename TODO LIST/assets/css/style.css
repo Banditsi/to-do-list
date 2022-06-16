@@ -24,6 +24,7 @@ body{
 
     );
 }
+
 .container{
     width: 40%;
     min-width: 450px;
@@ -87,10 +88,8 @@ body{
     width: 85.7%;
 }
 
-
-
 .task{
-    background-color: #ffffff;
+   
     height: 50px;
     padding: 5px 10px;
     margin-top: 10px;
@@ -100,6 +99,7 @@ body{
     border-bottom: 2px solid #d1d3d4;
     cursor: pointer;
 }
+
 .task span{
     font-size: 15px;
     margin-left: 40px;
@@ -115,9 +115,12 @@ body{
     cursor: pointer;
     outline: none;
 }
+
 .completed{
     text-decoration: line-through;
 }
+
+/* select */
 
 .select{
     transition: color 0.1s linear;
@@ -158,4 +161,3 @@ body{
     background-color: #1e5fa15d;
 }
 
-/*  */
